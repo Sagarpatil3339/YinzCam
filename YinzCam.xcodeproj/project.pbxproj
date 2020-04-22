@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF621FB4244CE6BD0018C4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FB3244CE6BD0018C4D7 /* AppDelegate.swift */; };
+		DF621FBD244CE6C40018C4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF621FBC244CE6C40018C4D7 /* Assets.xcassets */; };
+		DF621FC0244CE6C40018C4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF621FBE244CE6C40018C4D7 /* LaunchScreen.storyboard */; };
+		DF621FC8244CF8800018C4D7 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FC7244CF8800018C4D7 /* TableView.swift */; };
+		DF621FCD244CFFBB0018C4D7 /* LeagueGothic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF621FCA244CFE890018C4D7 /* LeagueGothic-Regular.otf */; };
+		DF621FCE244CFFBE0018C4D7 /* MavenProBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF621FCB244CFE890018C4D7 /* MavenProBold.otf */; };
+		DF621FCF244CFFC10018C4D7 /* MavenProRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF621FCC244CFE890018C4D7 /* MavenProRegular.otf */; };
+		DF621FD5244D09610018C4D7 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FD4244D09610018C4D7 /* TableViewModel.swift */; };
+		DF621FD7244D12BD0018C4D7 /* ScheduledCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FD6244D12BD0018C4D7 /* ScheduledCell.swift */; };
+		DF621FD9244D12FF0018C4D7 /* FinalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FD8244D12FF0018C4D7 /* FinalCell.swift */; };
+		DF621FDB244D13110018C4D7 /* ByeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FDA244D13110018C4D7 /* ByeCell.swift */; };
+		DF621FDD244D15210018C4D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FDC244D15210018C4D7 /* Model.swift */; };
+		DF621FDF244D153C0018C4D7 /* SeasonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FDE244D153C0018C4D7 /* SeasonData.swift */; };
+		DF621FE8244D17320018C4D7 /* CustomUIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FE7244D17320018C4D7 /* CustomUIElement.swift */; };
+		DF621FEA244D23110018C4D7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FE9244D23110018C4D7 /* DataService.swift */; };
+		DF621FEC244E28560018C4D7 /* DateTimeExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FEB244E28560018C4D7 /* DateTimeExtractor.swift */; };
+		DF621FEE244F032C0018C4D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF621FED244F032C0018C4D7 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF621FB0244CE6BD0018C4D7 /* YinzCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YinzCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF621FB3244CE6BD0018C4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF621FBC244CE6C40018C4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF621FBF244CE6C40018C4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF621FC1244CE6C40018C4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF621FC7244CF8800018C4D7 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		DF621FCA244CFE890018C4D7 /* LeagueGothic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueGothic-Regular.otf"; sourceTree = "<group>"; };
+		DF621FCB244CFE890018C4D7 /* MavenProBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MavenProBold.otf; sourceTree = "<group>"; };
+		DF621FCC244CFE890018C4D7 /* MavenProRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MavenProRegular.otf; sourceTree = "<group>"; };
+		DF621FD4244D09610018C4D7 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		DF621FD6244D12BD0018C4D7 /* ScheduledCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledCell.swift; sourceTree = "<group>"; };
+		DF621FD8244D12FF0018C4D7 /* FinalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalCell.swift; sourceTree = "<group>"; };
+		DF621FDA244D13110018C4D7 /* ByeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByeCell.swift; sourceTree = "<group>"; };
+		DF621FDC244D15210018C4D7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DF621FDE244D153C0018C4D7 /* SeasonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonData.swift; sourceTree = "<group>"; };
+		DF621FE7244D17320018C4D7 /* CustomUIElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIElement.swift; sourceTree = "<group>"; };
+		DF621FE9244D23110018C4D7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DF621FEB244E28560018C4D7 /* DateTimeExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeExtractor.swift; sourceTree = "<group>"; };
+		DF621FED244F032C0018C4D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF621FAD244CE6BD0018C4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF621FA7244CE6BD0018C4D7 = {
+			isa = PBXGroup;
+			children = (
+				DF621FB2244CE6BD0018C4D7 /* YinzCam */,
+				DF621FB1244CE6BD0018C4D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF621FB1244CE6BD0018C4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF621FB0244CE6BD0018C4D7 /* YinzCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF621FB2244CE6BD0018C4D7 /* YinzCam */ = {
+			isa = PBXGroup;
+			children = (
+				DF621FE4244D16D40018C4D7 /* Helpers */,
+				DF621FD2244D089A0018C4D7 /* ViewModel */,
+				DF621FD1244D088D0018C4D7 /* View */,
+				DF621FC9244CFE120018C4D7 /* Fonts */,
+				DF621FB3244CE6BD0018C4D7 /* AppDelegate.swift */,
+				DF621FBC244CE6C40018C4D7 /* Assets.xcassets */,
+				DF621FBE244CE6C40018C4D7 /* LaunchScreen.storyboard */,
+				DF621FC1244CE6C40018C4D7 /* Info.plist */,
+			);
+			path = YinzCam;
+			sourceTree = "<group>";
+		};
+		DF621FC9244CFE120018C4D7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF621FCA244CFE890018C4D7 /* LeagueGothic-Regular.otf */,
+				DF621FCB244CFE890018C4D7 /* MavenProBold.otf */,
+				DF621FCC244CFE890018C4D7 /* MavenProRegular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DF621FD1244D088D0018C4D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF621FC7244CF8800018C4D7 /* TableView.swift */,
+				DF621FD6244D12BD0018C4D7 /* ScheduledCell.swift */,
+				DF621FD8244D12FF0018C4D7 /* FinalCell.swift */,
+				DF621FDA244D13110018C4D7 /* ByeCell.swift */,
+				DF621FD3244D08A90018C4D7 /* Model */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF621FD2244D089A0018C4D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF621FD4244D09610018C4D7 /* TableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF621FD3244D08A90018C4D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF621FDC244D15210018C4D7 /* Model.swift */,
+				DF621FDE244D153C0018C4D7 /* SeasonData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF621FE4244D16D40018C4D7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF621FE7244D17320018C4D7 /* CustomUIElement.swift */,
+				DF621FE9244D23110018C4D7 /* DataService.swift */,
+				DF621FEB244E28560018C4D7 /* DateTimeExtractor.swift */,
+				DF621FED244F032C0018C4D7 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF621FAF244CE6BD0018C4D7 /* YinzCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF621FC4244CE6C40018C4D7 /* Build configuration list for PBXNativeTarget "YinzCam" */;
+			buildPhases = (
+				DF621FAC244CE6BD0018C4D7 /* Sources */,
+				DF621FAD244CE6BD0018C4D7 /* Frameworks */,
+				DF621FAE244CE6BD0018C4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YinzCam;
+			productName = YinzCam;
+			productReference = DF621FB0244CE6BD0018C4D7 /* YinzCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF621FA8244CE6BD0018C4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Prasad Patil";
+				TargetAttributes = {
+					DF621FAF244CE6BD0018C4D7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DF621FAB244CE6BD0018C4D7 /* Build configuration list for PBXProject "YinzCam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF621FA7244CE6BD0018C4D7;
+			productRefGroup = DF621FB1244CE6BD0018C4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF621FAF244CE6BD0018C4D7 /* YinzCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF621FAE244CE6BD0018C4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF621FC0244CE6C40018C4D7 /* LaunchScreen.storyboard in Resources */,
+				DF621FBD244CE6C40018C4D7 /* Assets.xcassets in Resources */,
+				DF621FCF244CFFC10018C4D7 /* MavenProRegular.otf in Resources */,
+				DF621FCE244CFFBE0018C4D7 /* MavenProBold.otf in Resources */,
+				DF621FCD244CFFBB0018C4D7 /* LeagueGothic-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF621FAC244CE6BD0018C4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF621FDD244D15210018C4D7 /* Model.swift in Sources */,
+				DF621FEA244D23110018C4D7 /* DataService.swift in Sources */,
+				DF621FDB244D13110018C4D7 /* ByeCell.swift in Sources */,
+				DF621FDF244D153C0018C4D7 /* SeasonData.swift in Sources */,
+				DF621FE8244D17320018C4D7 /* CustomUIElement.swift in Sources */,
+				DF621FD5244D09610018C4D7 /* TableViewModel.swift in Sources */,
+				DF621FC8244CF8800018C4D7 /* TableView.swift in Sources */,
+				DF621FD7244D12BD0018C4D7 /* ScheduledCell.swift in Sources */,
+				DF621FB4244CE6BD0018C4D7 /* AppDelegate.swift in Sources */,
+				DF621FD9244D12FF0018C4D7 /* FinalCell.swift in Sources */,
+				DF621FEC244E28560018C4D7 /* DateTimeExtractor.swift in Sources */,
+				DF621FEE244F032C0018C4D7 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF621FBE244CE6C40018C4D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF621FBF244CE6C40018C4D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF621FC2244CE6C40018C4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF621FC3244CE6C40018C4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF621FC5244CE6C40018C4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V833XNBHLP;
+				INFOPLIST_FILE = YinzCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PrasadPatil.YinzCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF621FC6244CE6C40018C4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V833XNBHLP;
+				INFOPLIST_FILE = YinzCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PrasadPatil.YinzCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF621FAB244CE6BD0018C4D7 /* Build configuration list for PBXProject "YinzCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF621FC2244CE6C40018C4D7 /* Debug */,
+				DF621FC3244CE6C40018C4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF621FC4244CE6C40018C4D7 /* Build configuration list for PBXNativeTarget "YinzCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF621FC5244CE6C40018C4D7 /* Debug */,
+				DF621FC6244CE6C40018C4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF621FA8244CE6BD0018C4D7 /* Project object */;
+}
