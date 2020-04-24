@@ -59,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF15B0B42453A87500F70113 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DF621FE9244D23110018C4D7 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		DF621FA7244CE6BD0018C4D7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +86,7 @@
 		DF621FB2244CE6BD0018C4D7 /* YinzCam */ = {
 			isa = PBXGroup;
 			children = (
+				DF15B0B42453A87500F70113 /* Services */,
 				DF621FE4244D16D40018C4D7 /* Helpers */,
 				DF621FD2244D089A0018C4D7 /* ViewModel */,
 				DF621FD1244D088D0018C4D7 /* View */,
@@ -133,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				DF621FE7244D17320018C4D7 /* CustomUIElement.swift */,
-				DF621FE9244D23110018C4D7 /* DataService.swift */,
 				DF621FEB244E28560018C4D7 /* DateTimeExtractor.swift */,
 				DF621FED244F032C0018C4D7 /* Constants.swift */,
 			);
