@@ -86,12 +86,13 @@
 		DF621FB2244CE6BD0018C4D7 /* YinzCam */ = {
 			isa = PBXGroup;
 			children = (
+				DF621FB3244CE6BD0018C4D7 /* AppDelegate.swift */,
+				DF621FD3244D08A90018C4D7 /* Model */,
+				DF621FD1244D088D0018C4D7 /* View */,
+				DF621FD2244D089A0018C4D7 /* ViewModel */,
 				DF15B0B42453A87500F70113 /* Services */,
 				DF621FE4244D16D40018C4D7 /* Helpers */,
-				DF621FD2244D089A0018C4D7 /* ViewModel */,
-				DF621FD1244D088D0018C4D7 /* View */,
 				DF621FC9244CFE120018C4D7 /* Fonts */,
-				DF621FB3244CE6BD0018C4D7 /* AppDelegate.swift */,
 				DF621FBC244CE6C40018C4D7 /* Assets.xcassets */,
 				DF621FBE244CE6C40018C4D7 /* LaunchScreen.storyboard */,
 				DF621FC1244CE6C40018C4D7 /* Info.plist */,
@@ -116,7 +117,6 @@
 				DF621FD6244D12BD0018C4D7 /* ScheduledCell.swift */,
 				DF621FD8244D12FF0018C4D7 /* FinalCell.swift */,
 				DF621FDA244D13110018C4D7 /* ByeCell.swift */,
-				DF621FD3244D08A90018C4D7 /* Model */,
 			);
 			path = View;
 			sourceTree = "<group>";
